@@ -2,7 +2,7 @@ const path = require("path");
 
 module.exports = ({ env }) => ({
   connection: {
-    client: "mysql",
+    client: "sqlite",
     connection: {
       filename: path.join(
         __dirname,
